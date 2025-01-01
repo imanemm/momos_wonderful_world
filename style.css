@@ -1,6 +1,9 @@
-body {
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
+}
+
+body {
     background-color: #5C2A3E ;
     font-family: "Poppins", sans-serif;
 }
@@ -34,6 +37,7 @@ body {
 
 /* Navigation Section*/
 nav {
+    padding-top: 5%;
     max-width: 50%;
     margin: 0 auto;
     background-color: #FAE9EE;
@@ -239,6 +243,7 @@ footer {
     justify-content: space-around;
     color: #5C2A3E;
     flex-wrap: wrap;
+    padding: 1rem;
 }
 
 .social-media {
