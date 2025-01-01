@@ -269,3 +269,86 @@ footer {
 .fa-heart {
     color: red;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #hero {
+        height: max-content;
+    }
+    #hero h1 {
+        padding-top: 15%;
+        font-size: 2.5em;
+    }
+    #hero p {
+        font-size: 1.5em;
+        padding: 2em;
+    }
+    #hero, nav, .restaurant-section, #menu, #order-form, #restaurant-footer {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu-item {
+        width: 90%;
+        margin: 10px;
+    }
+    form {
+        width: 90%;
+    }
+    #bottom {
+        max-width: 100%;
+    }
+    footer {
+        max-width: 100%;
+    }
+    .social-media {
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    #hero h1 {
+        padding-top: 40%;
+        font-size: 2.5em;
+    }
+    #hero p {
+        font-size: 1.5em;
+    }
+    nav ul li {
+        width: 80px;
+    }
+    nav ul li a {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    .menu-item {
+        width: 90%;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    input, textarea {
+        padding: 0.5em;
+    }
+    button {
+        font-size: 1em;
+    }
+    .button {
+        width: 80%;
+    }
+    .button a {
+        font-size: 0.8rem;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-media {
+        width: 100%;
+        padding: 1em 0;
+    }
+    
+}
