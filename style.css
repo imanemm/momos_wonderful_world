@@ -1,0 +1,270 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5C2A3E ;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 50%;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+#hero h1 {
+    color: #F9F3E9;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 20%;
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+}
+
+#hero p {
+    color: #F9F3E9;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+}
+
+/* Navigation Section*/
+nav {
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #FAE9EE;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 1em;
+    background-color: #E4A2B1;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+nav ul li:hover {
+    background-color: #EEB7C4;
+    transition: 0.5s ease transform 0.5s ease;
+    transform: translateY(-5px);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5C2A3E;
+    font-family: "Delius Unicase", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* General Styling*/
+.restaurant-section {
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #FAE9EE;
+}
+/* Menu Section*/
+#menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #5C2A3E;
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 1em;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    background-color: #E4A2B1;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+h3 {
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+    color: #5C2A3E;
+}
+
+.menu-item:hover {
+    background-color: #EEB7C4;
+    transition: 0.5s ease;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+/* Order Form Section */
+#order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 25px;
+    border: none;
+    color: #5C2A3E;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    align-self: center;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border: #5C2A3E 2px solid;
+}
+
+button{
+    width: 50%;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 25px;
+    border: none;
+    background-color: #E4A2B1;
+    color: #5C2A3E;
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: #EEB7C4;
+    transition: 0.5s ease;
+}
+
+/* Bottom Section*/
+#restaurant-footer {
+    background-color: #FAE9EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 50%;
+    padding: 0.5em;
+    margin: 0.5rem auto;
+    border-radius: 25px;
+    border: none;
+    background-color: #E4A2B1;
+    color: #5C2A3E;
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;  
+    justify-content: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: #5C2A3E;
+    font-size: 1rem;
+    align-self: center;
+    transition: 0.5s ease;
+}
+
+.button a:hover {
+    color: #914261;
+    transition: 0.5s ease;
+}
+
+#bottom {
+    background-image: url('images/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 50%;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+footer {
+    background-color: #F9F3E9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #5C2A3E;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+
+.fa-globe, .fa-linkedin, .fa-github {
+    font-size: 1.5em;
+    color: #5C2A3E;
+    transition: 0.5s ease;
+}
+
+.fa-globe:hover, .fa-linkedin:hover, .fa-github:hover {
+    color: indigo;
+    transition: color 0.5s ease transform 0.5s ease;
+    transform: translateY(-5px);
+}
+
+.fa-heart {
+    color: red;
+}

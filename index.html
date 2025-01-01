@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Momo's Wonderful Restaurant</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <div id="hero">
+                <h1>Momo's Wonderful Restaurant</h1>
+                <p>Enjoy the best food in town!</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order-form">Order</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="#menu" class="restaurant-section">
+            <h2>MENU</h2>
+            <div class="menu-wrapper">
+                <article class="menu-item">
+                    <img src="images/coffee.jpg" alt="Deja Vu Coffee">
+                    <h3>Deja Vu Coffee</h3>
+                    <p>Our signature coffee blend, made from the finest beans in the world.</p>
+                    <p>Price: 2 coins</p>
+                </article>
+                <article class="menu-item">
+                    <img src="images/cake.jpg" alt="">
+                    <h3>0X1 = LoveCake</h3>
+                    <p>Mysteriously cute cake filled with joy, love, hope and peace.</p>
+                    <p>Price: 5 coins</p>
+                </article>
+                <article class="menu-item">
+                    <img src="images/boba.jpg" alt="Forty One Pearls">
+                    <h3>Forty One Pearls</h3>
+                    <p>41 pearls in a cup, each representing a wish for you.</p>
+                    <p>Price: 3 coins</p>
+                </article>
+                <article class="menu-item">
+                    <img src="images/sandwish.jpg" alt=""> 
+                    <h3>WishSandwich</h3>
+                    <p>Make a wish before you eat this sandwich, and it will come true.</p>
+                    <p>Price: 4 coins</p>
+                </article>
+            </div>
+        </section>
+        <section id="order-form" class="restaurant-section">
+            <h2>PLACE YOUR ORDER</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="menu-item">Menu Item:</label>
+                <br>
+                <label for="deja-vu-coffee">Deja Vu Coffee</label>
+                <input type="number" id="deja-vu-coffee" name="menu-item" value="Quantity" min="0" required>
+                <label for="love-cake">0X1 = LoveCake</label>
+                <input type="number" id="love-cake" name="menu-item" value="Quantity" min="0" required>
+                <label for="forty-one-pearls">Forty One Pearls</label>
+                <input type="number" id="forty-one-pearls" name="menu-item" value="Quantity" min="0" required>
+                <label for="wish-sandwich">WishSandwich</label>
+                <input type="number" id="wish-sandwich" name="menu-item" value="Quantity" min="0" required>
+                <br>
+                <label for="comments">Special Requests: </label>
+                <textarea id="comments" name="comments"></textarea>
+                <br>
+                <button type="submit">Go To Checkout</button>
+            </form>
+        </section>
+        <section id="restaurant-footer" class="restaurant-section">
+            <div class="top">
+                <p>&copy; 2025 Momo's Wonderful Restaurant</p>
+                <div class="button">
+                    <a href="https://www.youtube.com/watch?v=d5bbqKYu51w">Background Music</a>
+                </div>
+            </div>
+        </section>
+        <section id="bottom">
+
+        </section>
+        <footer>
+            <p>Made with <i class="fa-solid fa-heart"></i> by Imane Moussa Marou</p>
+            <div class="social-media">
+                <a href="https://imanemm.me"><i class="fa-solid fa-globe"></i></a>
+                <a href="https://www.linkedin.com/in/imanemm/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
